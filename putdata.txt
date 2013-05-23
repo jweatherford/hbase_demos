@@ -1,0 +1,5 @@
+put 'hbase_demo', 'id-123455', 'twitter:junk', 'junk'
+put 'hbase_demo', 'id-123456', 'twitter:json_raw', '{"twitter": {"id":1234}}'
+put 'hbase_demo', 'id-123457', 'twitter:json_raw', '{"twitter": {"id":1234, "name": "DaveJohnson", "timestamp":11234553, "registered":true}}'
+put 'hbase_demo', 'id-123458', 'twitter:json_raw', '{"twitter": {"id":1234, "name": "DaveJohnson", "timestamp":11234553, "registered":true}, "favorite": {"artist": "Taylor Swift", "song": "I knew you were trouble"}}'
+put 'hbase_demo', 'id-123459', 'twitter:json_raw', '{"twitter": {"id":1234, "name": "DaveJohnson", "timestamp":11234553, "registered":true}, "favorite": {"artist": "Taylor Swift", "song": "I knew you were trouble"}, "extra":{"this":"will not", "make": "it"}}'
